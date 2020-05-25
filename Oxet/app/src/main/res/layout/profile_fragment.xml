@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <!--android:fillViewport="true"-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<com.jjoe64.graphview.GraphView-->
+            <!--android:id="@+id/graph"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dip"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_marginEnd="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <TextView
+            android:id="@+id/profile_tv_totalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/total_points"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="@+id/profile_tv_total"
+            app:layout_constraintStart_toStartOf="@+id/profile_tv_total"
+            app:layout_constraintTop_toBottomOf="@+id/profile_tv_total" />
+
+        <TextView
+            android:id="@+id/profile_tv_weekLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/this_week"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/profile_tv_week"
+            app:layout_constraintStart_toStartOf="@+id/profile_tv_week"
+            app:layout_constraintTop_toBottomOf="@+id/profile_tv_week" />
+
+        <TextView
+            android:id="@+id/profile_tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/graph"
+            tools:text="240" />
+
+        <TextView
+            android:id="@+id/profile_tv_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/profile_tv_streak"
+            app:layout_constraintStart_toEndOf="@+id/profile_tv_total"
+            app:layout_constraintTop_toBottomOf="@+id/graph"
+            tools:text="35" />
+
+        <TextView
+            android:id="@+id/profile_tv_streak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:text="TextView"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/graph"
+            tools:text="2" />
+
+        <TextView
+            android:id="@+id/profile_tv_streakLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="@+id/profile_tv_streak"
+            app:layout_constraintStart_toStartOf="@+id/profile_tv_streak"
+            app:layout_constraintTop_toBottomOf="@+id/profile_tv_streak"
+            tools:text="day streak" />
+    </android.support.constraint.ConstraintLayout>
+    <!--android:text="@string/day_streak"-->
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference" >
+        <item>@string/profile</item>
+        <item>@string/edit_courses</item>
+        <item>@string/settings</item>
+    </string-array>
+
+    <string-array name="lesson_iconNames">
+        <item>@string/default_icon</item>
+        <item>@string/animals</item>
+        <item>@string/body_parts</item>
+        <item>@string/clothes</item>
+        <item>@string/colors</item>
+        <item>@string/conversation</item>
+        <item>@string/occupations</item>
+        <item>@string/politics</item>
+        <item>@string/spirituality</item>
+        <item>@string/time</item>
+        <item>@string/transport</item>
+    </string-array>
+
+    <integer-array name="lesson_iconIDs">
+        <item>@drawable/lessons_animals</item>
+        <item>@drawable/lessons_animals</item>
+        <item>@drawable/lessons_body_parts</item>
+        <item>@drawable/lessons_clothes</item>
+        <item>@drawable/lessons_colors</item>
+        <item>@drawable/lessons_conversation</item>
+        <item>@drawable/lessons_occupations</item>
+        <item>@drawable/lessons_politics</item>
+        <item>@drawable/lessons_spirituality</item>
+        <item>@drawable/lessons_time</item>
+        <item>@drawable/lessons_transport</item>
+    </integer-array>
+</resources>

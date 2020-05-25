@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lecture">محاضرة</string>
+    <string name="enter_question">أدخل السؤال</string>
+    <string name="enter_answer">أدخل الجواب</string>
+    <string name="load">حمل</string>
+    <string name="save">نشر كتابا</string>
+    <string name="enter_name">أدخل الاسم</string>
+    <string name="type_translation">أدخل الترجمة</string>
+    <string name="done">فعله</string>
+    <string name="translate">ترجمه</string>
+    <string name="info">معلومات</string>
+    <string name="total_points">مجمل النقاط</string>
+    <string name="this_week">هذا الاسبوع</string>
+    0
+    <plurals name="day_streak">
+        <item quantity="zero"><span style="color:red">يوم متتالية</span>&#8207;</item>
+        <item quantity="one"><span style="color:red">يوم متتالية</span>&#8207;</item>
+        <item quantity="two"><span style="color:red">يوم متتالية</span>&#8207;</item>
+        <item quantity="few"><span style="color:red">أيام متتالية</span>&#8207;</item>
+        <item quantity="many"><span style="color:red">أيام متتالية</span>&#8207;</item>
+    </plurals>
+    <!--<string name="day_streak">" يوم متتالية"</string>-->
+    <string name="profile">الملف الشخصي</string>
+    <string name="home_page">الصفحة الرئيسية</string>
+    <string name="expand_navigation_drawer">قم بتوسيع درج التنقل</string>
+    <string name="lessons">الدروس</string>
+    <string name="show_explanation">عرض الشرح إذا كان صحيحا</string>
+    <string name="notification_to_practice">إرسال إشعار إذا كنت لم تمارس</string>
+    <string name="show_explanation_summary">سواء لإظهار تفسير للإجابات الصحيحة</string>
+    <string name="expand_navigation_drawer_summary">توسيع لإظهار الدروس تحت كل لغة في درج التنقل</string>
+    <string name="edit_courses">تحرير الدورات</string>
+    <string name="publish">نشر كتابا</string>
+    <string name="name">اسم</string>
+    <string name="icon">أيقونة</string>
+    <string name="question">سؤال</string>
+    <string name="answer">إجابة</string>
+    <string name="pref_header_notifications">إخطارات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="pref_header_general">جنرال لواء</string>
+    <string name="default_icon">افتراضي</string>
+    <string name="body_parts">أجزاء الجسم</string>
+    <string name="animals">الحيوانات</string>
+    <string name="clothes">ملابس</string>
+    <string name="colors">الألوان</string>
+    <string name="conversation">محادثة</string>
+    <string name="occupations">المهن</string>
+    <string name="politics">سياسة</string>
+    <string name="spirituality">روحانية</string>
+    <string name="time">زمن</string>
+    <string name="transport">المواصلات</string>
+    <string name="correct">صيح</string>
+    <string name="i_dont_know">لا أدري، لا أعرف</string>
+    <string name="completed_lesson">درس مكتمل</string>
+    <string name="lecture_number">محاضرة %d</string>
+    <string name="lesson_number">الدرس %d</string>
+</resources>

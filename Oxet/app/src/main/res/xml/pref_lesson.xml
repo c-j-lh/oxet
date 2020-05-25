@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="move_on"
+        android:summary="@string/show_explanation_summary"
+        android:title="@string/show_explanation" />
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="typing"-->
+        <!--android:summary="Whether to avoid typing in lessons"-->
+        <!--android:title="Typing" />-->
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="skip_notes"-->
+        <!--android:summary="Skip to practice (without reading notes) on first time attempting lesson"-->
+        <!--android:title="Skip notes" />-->
+</PreferenceScreen>

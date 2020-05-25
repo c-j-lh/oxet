@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Oxet</string>
+    <string name="title_activity_settings" translatable="false">@string/settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Profile</item>
+        <item>Edit Courses</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <!--<string name="pref_header_data_sync">Data &amp; sync</string>-->
+
+    <!--<string-array name="list_preference_entries">-->
+        <!--<item>Entry 1</item>-->
+        <!--<item>Entry 2</item>-->
+        <!--<item>Entry 3</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="list_preference_entry_values">-->
+        <!--<item>1</item>-->
+        <!--<item>2</item>-->
+        <!--<item>3</item>-->
+    <!--</string-array>-->
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="icon">Icon</string>
+    <string name="name">Name</string>
+    <string name="lecture">Lecture</string>
+    <string name="enter_question">Enter question</string>
+    <string name="enter_answer">Enter answer</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="publish">Publish</string>
+    <string name="enter_name">Enter language\'s name</string>
+    <string name="type_translation">Type the translation here</string>
+    <string name="done">Done</string>
+    <string name="translate">Translate</string>
+    <string name="info">Info</string>
+    <string name="total_points">Total points</string>
+    <string name="this_week">This week</string>
+    <!--<string name="day_streak">day streak</string>-->
+
+    <plurals name="day_streak">
+        <item quantity="other">day streak</item>
+    </plurals>
+    <string name="profile">Profile</string>
+    <string name="edit_courses">Edit courses</string>
+    <string name="settings">Settings</string>
+    <string name="home_page">Home page</string>
+    <string name="expand_navigation_drawer">Expand navigation drawer</string>
+    <string name="lessons">Lessons</string>
+    <string name="show_explanation">Show explanation if correct</string>
+    <string name="notification_to_practice">Notification if you have not practiced</string>
+    <string name="show_explanation_summary">Whether to show an explanation for correct answers</string>
+    <string name="expand_navigation_drawer_summary">Expand to show the lessons under each language in navigation drawer</string>
+
+    <string name="default_icon">Default</string>
+    <string name="animals">Animals</string>
+    <string name="body_parts">Body Parts</string>
+    <string name="clothes">Clothes</string>
+    <string name="colors">Colors</string>
+    <string name="conversation">Conversation</string>
+    <string name="occupations">Occupations</string>
+    <string name="politics">Politics</string>
+    <string name="spirituality">Spirituality</string>
+    <string name="time">Time</string>
+    <string name="transport">Transport</string>
+    <string name="correct">Correct!</string>
+    <string name="i_dont_know">I don\'t know</string>
+    <string name="completed_lesson">Completed lesson!</string>
+    <string name="lesson_number">Lesson %d</string>
+    <string name="lecture_number">Lecture %d</string>
+</resources>
